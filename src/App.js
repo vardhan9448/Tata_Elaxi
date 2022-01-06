@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import ReactPlayer from 'react-player'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export const App = () => {
+    let [state, setstate] = useState(0)
+    state=4;
+    return (
+        <div>
+           <ReactPlayer url="https://youtu.be/7sDY4m8KNLc" controls onReady={()=>console.log('started')}/>
+       {state} </div>
+    )
 }
-
-export default App;

@@ -1,0 +1,23 @@
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.progress-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 1em;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 50%;
+}
+
+.progress-item-current {
+    background-color: green;
+}

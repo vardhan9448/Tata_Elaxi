@@ -1,0 +1,328 @@
+@font-face {
+  font-family: book;
+  src: url(../font/3MCircularTT-Regular.ttf);
+}
+@font-face {
+  font-family: hed;
+  src: url(../font/3MCircularTT-Bold.ttf);
+}
+
+
+tr{
+  border:solid;
+}
+
+.exit-main {
+  margin-top: 4%;
+  height: 100%;
+  /* width: 100vw; */
+}
+
+.header-div {
+  /* z-index: 2; */
+  top: 2%;
+  left: 0px;
+  width: 100%;
+  height: 3% ;
+  padding-left:5%;
+  margin: 29px 0;
+}
+.logo {
+  height: 10%;
+}
+.exit-div {
+  display: flex;
+  padding-left :5%;
+  padding-right :5%;
+}
+
+.exit-img-div {
+  top: 280px;
+  float:left;
+  left: 983px;
+  /* width: 800px; */
+  width: 50%;
+  bottom:0px;
+  height:   55%;
+  opacity: 1;
+  margin-top:2%;
+}
+.exit-image {
+  top: 280px;
+  float:left;
+  left: 983px;
+  /* width: 800px; */
+  width: 101%;
+  opacity: 1;
+}
+
+
+.download-pdf {
+  padding-top:5px;
+  display:flex;
+  align-items:center;
+  height: 75px;
+  padding-bottom: 20px;
+}
+.get_connected_div {
+  padding-top:2%;
+  margin-top: -1%;
+  height:40%
+}
+.general-info-text {
+  font-family: book;
+  padding-top: 1%;
+}
+.exit-label {
+  width: 50%;
+  height: 55%;
+  letter-spacing: 0px;
+  color: #323237;
+  opacity: 1;
+  float:left;
+  font-size: 75%;
+  font-family: book;
+  padding-right: 10%;
+}
+.handbook-download-btn {
+  background: #FF0000 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  width: 30%;
+  height: 45%;
+  font-family: book;
+  font-size:60%;
+  border-radius: 3px;
+  border: none;
+}
+.get_connected_btn {
+  width: 10%;
+  height: 60%;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #4C4C53;
+  text-transform: uppercase;
+  font-family: hed;
+  font-size: 70%;
+  opacity: 1;
+  border-radius: 3px;
+  border: none;
+}
+.general-info {
+  top: 125%;
+  left: 464px;
+  width: 100%;
+  height: 100px;
+  bottom: 0px;
+  background: #2466DB 0% 0% no-repeat padding-box;
+  text-align: center;
+  font-family: hed;
+  font-size:55%;
+  letter-spacing: 0px;
+  color: #F1F1F6;
+  opacity: 1;
+}
+@media ( min-width : 1500px ) {
+  .general-info {
+      top: 830px;
+      left: 464px;
+      height: 200px;
+      font-size:95%;
+      padding-top: 1%;
+  }
+  .exit-label {
+      font-size: 123%;
+  }
+  .handbook-download-btn {
+      width: 248px;
+      height: 50px;
+      font-size:50%;
+  }
+  .get_connected_btn {
+      width: 13%;
+      height: 70%;
+  }
+  .exit-main {
+      margin-top: 7%;
+  }
+  .exit-image {
+      width: 105%;
+  }
+  
+}
+@media (max-width: 375px) {
+  body{
+      margin: 0px;
+  width: 375px;
+  /* height: 667px; */
+  max-height: 667px;
+  margin-left: 0px;
+  }
+  .exit-div {
+  display: flex;
+  flex-direction: column;
+  }
+  .exit-text {
+  text-align: left;
+  letter-spacing: 0px;
+  top: 150px;
+  left: 20px;
+  width: 335px;
+  }
+  .exit-label {
+  font-size: 58%;
+  letter-spacing: 0px;
+  }
+  .handbook-download-btn{
+  top: 351px;
+  left: 20px;
+  width: 186px;
+  height: 36px;
+  }
+  .exit-img-div{
+  top: 408px;
+  left: 20px;
+  width: 335px;
+  height: 183px;
+  }
+  .general-info{
+      height: 196px;
+      }
+      .general-info-text{
+      position: absolute;
+      text-align: center;
+      font-size: 115%;
+      top: 637px;
+      left: 40px;
+      width: 296px;
+      height: 51px;
+      }
+      .get_connected_btn{
+      position: absolute;
+      top: 708px;
+      left: 109px;
+      width: 150px;
+      height: 35px;
+      }
+  }
+
+
+  @media only screen and (min-width: 768px) and (max-width:768px) {
+      body{
+         margin: 0px;
+      width: 768px;
+      
+      max-height: 1024px;
+      margin-left: 0px;
+      }
+      .exit-div {
+      display: flex;
+      flex-direction: column;
+      }
+      .exit-text {
+      text-align: left;
+      letter-spacing: 0px;
+      top: 222px;
+      left: 24px;
+      width: 724px;
+      height: 185px;
+      }
+      .exit-label {
+      font-size: 20px;
+      letter-spacing: 0px;
+      }
+      .handbook-download-btn{
+          top: 437px;
+          left: 24px;
+          width: 186px;
+          height: 36px;
+      }
+      .exit-img-div{
+         position: absolute;
+         left: 114px;
+         top: 442px;
+          width: 539px;
+          height: 295px;
+      }
+      .general-info{
+          position: absolute;
+          top: 755px;
+          left: 0px;
+          width: 768px;
+          height: 228px;
+      }  
+          .general-info-text{
+         position: absolute;
+         top: 54px;
+         left: 100px;
+         font-size: 20px;
+          }
+          .get_connected_btn{
+          position: absolute;
+         top: 119px;
+        left: 305px;
+        height: 35px;
+        width: 151px;
+          }
+      }
+      
+      @media only screen and (min-width: 1024px) and (max-width:1024px) {
+          body{
+             margin: 0px;
+          width: 1024px;
+          
+          max-height: 768px;
+          margin-left: 0px;
+          }
+          .exit-div {
+          display: flex;
+          flex-direction: row;
+          }
+          .exit-text {
+          text-align: left;
+          letter-spacing: 0px;
+          top: 222px;
+          left: 24px;
+          width: 438px;
+          height: 255px;
+          }
+          .exit-label {
+          font-size: 20px;
+          letter-spacing: 0px;
+          }
+          .handbook-download-btn{
+              top: 493px;
+              left: 24px;
+              width: 186px;
+              height: 36px;
+          }
+          .exit-img-div{
+             position: absolute;
+             top: 215px;
+             left: 518px;
+             width: 500px;
+             height: 295px;
+
+          }
+          .general-info{
+              position: absolute;
+              top: 500px;
+              left: 0px;
+              width: 1024px;
+              height: 205px;
+          }  
+          .general-info-text{
+              position: absolute;
+              font-size: 20px;
+               top: 30px; ;
+               left: 230px;
+              
+              }
+              .get_connected_btn{
+              position: absolute;
+              top: 100px;
+              left: 440px;
+              width: 158px;
+              height: 36px;
+             
+              }
+          }
